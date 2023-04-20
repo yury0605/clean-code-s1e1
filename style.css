@@ -10,10 +10,10 @@ body {
   display: block;
   text-align: right;
 }
-.information img {
+.inf-img {
   width: 100%;
 }
-.information .more-inf {
+.more-inf {
   font-family: fantasy, cursive;
 }
 @media (max-width:768px) {
@@ -40,10 +40,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
-input,button{
+input, 
+button{
   outline: none;
 }
 .button {
@@ -135,10 +137,13 @@ input,button{
 .text-input {
   display: none
 }
-.list-item.edit-mode .text-input {
+.list-item.edit-mode 
+.text-input {
   display: inline-block;
   width: 224px
 }
-#incomplete-tasks .edit-mode .edit-mode-label {
+#incomplete-tasks 
+.edit-mode 
+.edit-mode-label {
   display: none;
 }
